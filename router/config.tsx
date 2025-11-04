@@ -1,5 +1,5 @@
-
-import { RouteObject } from 'react-router-dom';
+// Use type import to avoid runtime import issues with RouteObject
+import type { RouteObject } from 'react-router-dom';
 import { lazy } from 'react';
 
 const HomePage = lazy(() => import('../pages/home/page'));
